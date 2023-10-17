@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Create Account</title>
+</head>
+<body>
+  <div class="form-container">
+    <h2 class="form-title">Create Account</h2>
+    <form action="#" method="post">
+      <label for="FirstName">First name *</label>
+      <input type="text" name="FirstName" placeholder="Enter your first name">
+      
+      <label for="LastName">Last name</label>
+      <input type="text" name="LastName" placeholder="Enter your last name">
+      
+      <label for="Email">Email *</label>
+      <input type="text" name="Email" placeholder="Enter your email">
+      
+      <label for="password">Password</label>
+      <input type="password" name="password" placeholder="Enter your password">
+      
+      <label for="confirm_password">Confirm Password</label>
+      <input type="password" name="confirm_password" placeholder="Enter your password again">
+      
+      <p>Select Your Gender:</p>
+      <label>
+        <input type="radio" name="gender" value="male"> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female"> Female
+      </label>
+      
+      <p>Select Your Hobbies:</p>
+      <label>
+        <input type="radio" name="hobby" value="reading"> Reading
+      </label>
+      <label>
+        <input type="radio" name="hobby" value="gaming"> Gaming
+      </label>
+      <label>
+        <input type="radio" name="hobby" value="cooking"> Cooking
+      </label>
+      <label>
+        <input type="radio" name="hobby" value="sports"> Sports
+      </label>
+      <label>
+        <input type="radio" name="hobby" value="music"> Music
+      </label>
+      
+      <label for="file">Upload profile picture</label>
+      <input type="file" id="file" name="file">
+      
+      <label for="Age">Age</label>
+      <input type="number" name="Age" placeholder="Enter your age">
+      
+      <label for="bio">Bio:</label>
+      <textarea id="bio" name="bio" rows="6" cols="50" placeholder="Tell us about yourself"></textarea>
+      
+      <input type="submit" value="Create">
+    </form>
+  </div>
+</body>
+</html>

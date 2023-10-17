@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  background-color: hsl(0, 4%, 72%);
+}
+
+.form-container {
+  border: 2px solid hsl(0, 2%, 56%) ;
+  border-radius: 16px;
+  padding: 20px;
+  width: 700px;
+  height: auto;
+  margin: 20px auto;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.form-title {
+  background-color:rgb(200, 200, 200);
+  color: hsl(0, 1%, 29%);
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+label {
+  color: hsl(165, 82%, 51%);
+  font-weight: 700;
+}
+ 
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  background-color: hsl(165, 82%, 51%);
+
+  color: hsla(0, 0%, 0%, 0.38);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: hsl(115, 80%, 42%);
+}
